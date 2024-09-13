@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Drawing.Imaging;
 
 namespace WindowsForm_Project
 {
@@ -15,6 +16,26 @@ namespace WindowsForm_Project
         public Form1()
         {
             InitializeComponent();
+            this.BackgroundImage = Properties.Resources.Pic8;
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
         }
     }
 }
