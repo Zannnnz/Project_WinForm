@@ -93,16 +93,6 @@ namespace WindowsForm_Project.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap person_fill {
-            get {
-                object obj = ResourceManager.GetObject("person-fill", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Pic1 {
             get {
                 object obj = ResourceManager.GetObject("Pic1", resourceCulture);
@@ -166,16 +156,6 @@ namespace WindowsForm_Project.Properties {
         internal static System.Drawing.Bitmap Pic6 {
             get {
                 object obj = ResourceManager.GetObject("Pic6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Pic7 {
-            get {
-                object obj = ResourceManager.GetObject("Pic7", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

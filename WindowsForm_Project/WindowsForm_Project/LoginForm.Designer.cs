@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             this.errormess = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -39,7 +40,7 @@
             // 
             // metroPanel2
             // 
-            this.metroPanel2.BackgroundImage = global::WindowsForm_Project.Properties.Resources.Pic6;
+            this.metroPanel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroPanel2.BackgroundImage")));
             this.metroPanel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.metroPanel2.Controls.Add(this.errormess);
             this.metroPanel2.Controls.Add(this.guna2HtmlLabel1);
@@ -115,7 +116,6 @@
             this.textpassword.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textpassword.ForeColor = System.Drawing.Color.Black;
             this.textpassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textpassword.IconLeft = global::WindowsForm_Project.Properties.Resources._lock;
             this.textpassword.IconLeftSize = new System.Drawing.Size(30, 30);
             this.textpassword.Location = new System.Drawing.Point(99, 244);
             this.textpassword.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -142,7 +142,6 @@
             this.textusername.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textusername.ForeColor = System.Drawing.Color.Black;
             this.textusername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.textusername.IconLeft = global::WindowsForm_Project.Properties.Resources.user;
             this.textusername.IconLeftSize = new System.Drawing.Size(30, 30);
             this.textusername.Location = new System.Drawing.Point(99, 132);
             this.textusername.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
