@@ -54,7 +54,9 @@ namespace WindowsForm_Project
             if (textusername.Text == "BiuBiu" && textpassword.Text == "2309")
             {
                 errormess.Visible = false;
+                Dashboard ds = new Dashboard();
                 this.Hide();
+                ds.Show();
             } 
             else
             {
