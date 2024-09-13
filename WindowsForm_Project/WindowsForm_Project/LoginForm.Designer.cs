@@ -126,6 +126,7 @@
             this.textpassword.SelectedText = "";
             this.textpassword.Size = new System.Drawing.Size(507, 58);
             this.textpassword.TabIndex = 5;
+            this.textpassword.TextChanged += new System.EventHandler(this.textpassword_TextChanged);
             // 
             // textusername
             // 

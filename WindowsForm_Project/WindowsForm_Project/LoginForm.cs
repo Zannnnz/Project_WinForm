@@ -62,5 +62,10 @@ namespace WindowsForm_Project
                 textpassword.Clear();
             }
         }
+
+        private void textpassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
