@@ -28,53 +28,64 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel3 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel4 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel5 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel6 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel7 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel8 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel9 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel10 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel11 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel12 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel13 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel14 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel15 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel16 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel17 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel18 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel19 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel20 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel21 = new MetroFramework.Controls.MetroPanel();
+            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.metroPanel22 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel23 = new MetroFramework.Controls.MetroPanel();
             this.metroPanel24 = new MetroFramework.Controls.MetroPanel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroRadioButton1 = new MetroFramework.Controls.MetroRadioButton();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.guna2GradientTileButton1 = new Guna.UI2.WinForms.Guna2GradientTileButton();
+            this.metroSetButton1 = new MetroSet_UI.Controls.MetroSetButton();
+            this.metroSetDefaultButton1 = new MetroSet_UI.Controls.MetroSetDefaultButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Panel1.SuspendLayout();
             this.metroPanel1.SuspendLayout();
             this.metroPanel4.SuspendLayout();
@@ -101,8 +112,59 @@
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1919, 57);
+            this.guna2Panel1.Size = new System.Drawing.Size(1924, 57);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(593, 12);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(113, 35);
+            this.guna2HtmlLabel8.TabIndex = 4;
+            this.guna2HtmlLabel8.Text = "Employee";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(391, 12);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(181, 35);
+            this.guna2HtmlLabel7.TabIndex = 3;
+            this.guna2HtmlLabel7.Text = "Customer Detail";
+            this.guna2HtmlLabel7.Click += new System.EventHandler(this.guna2HtmlLabel7_Click);
+            // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(254, 12);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(119, 35);
+            this.guna2HtmlLabel6.TabIndex = 2;
+            this.guna2HtmlLabel6.Text = "Check Out";
+            // 
+            // guna2HtmlLabel5
+            // 
+            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(132, 12);
+            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(105, 35);
+            this.guna2HtmlLabel5.TabIndex = 1;
+            this.guna2HtmlLabel5.Text = "Bookings";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(12, 12);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(107, 35);
+            this.guna2HtmlLabel4.TabIndex = 0;
+            this.guna2HtmlLabel4.Text = "Overview";
             // 
             // guna2Panel2
             // 
@@ -112,7 +174,7 @@
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel2.Location = new System.Drawing.Point(0, 57);
             this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.Size = new System.Drawing.Size(1919, 62);
+            this.guna2Panel2.Size = new System.Drawing.Size(1924, 62);
             this.guna2Panel2.TabIndex = 1;
             // 
             // guna2Panel3
@@ -121,7 +183,7 @@
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel3.Location = new System.Drawing.Point(0, 119);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(239, 842);
+            this.guna2Panel3.Size = new System.Drawing.Size(239, 942);
             this.guna2Panel3.TabIndex = 2;
             // 
             // metroPanel1
@@ -138,6 +200,16 @@
             this.metroPanel1.VerticalScrollbarBarColor = true;
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel9.TabIndex = 0;
+            this.guna2HtmlLabel9.Text = "Room";
             // 
             // metroPanel2
             // 
@@ -181,6 +253,16 @@
             this.metroPanel4.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel4.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel10.TabIndex = 7;
+            this.guna2HtmlLabel10.Text = "Room";
+            // 
             // metroPanel5
             // 
             this.metroPanel5.HorizontalScrollbarBarColor = true;
@@ -210,6 +292,16 @@
             this.metroPanel6.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel6.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel11.TabIndex = 7;
+            this.guna2HtmlLabel11.Text = "Room";
+            // 
             // metroPanel7
             // 
             this.metroPanel7.HorizontalScrollbarBarColor = true;
@@ -237,6 +329,16 @@
             this.metroPanel8.VerticalScrollbarBarColor = true;
             this.metroPanel8.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel8.VerticalScrollbarSize = 10;
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel12.TabIndex = 2;
+            this.guna2HtmlLabel12.Text = "Room";
             // 
             // guna2HtmlLabel1
             // 
@@ -287,6 +389,16 @@
             this.metroPanel10.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel10.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel15
+            // 
+            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel15.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
+            this.guna2HtmlLabel15.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel15.TabIndex = 7;
+            this.guna2HtmlLabel15.Text = "Room";
+            // 
             // metroPanel11
             // 
             this.metroPanel11.HorizontalScrollbarBarColor = true;
@@ -315,6 +427,16 @@
             this.metroPanel12.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel12.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel16
+            // 
+            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel16.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
+            this.guna2HtmlLabel16.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel16.TabIndex = 2;
+            this.guna2HtmlLabel16.Text = "Room";
+            // 
             // metroPanel13
             // 
             this.metroPanel13.Controls.Add(this.guna2HtmlLabel14);
@@ -330,6 +452,17 @@
             this.metroPanel13.VerticalScrollbarBarColor = true;
             this.metroPanel13.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel13.VerticalScrollbarSize = 10;
+            // 
+            // guna2HtmlLabel14
+            // 
+            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
+            this.guna2HtmlLabel14.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel14.TabIndex = 7;
+            this.guna2HtmlLabel14.Text = "Room";
+            this.guna2HtmlLabel14.Click += new System.EventHandler(this.guna2HtmlLabel14_Click);
             // 
             // metroPanel14
             // 
@@ -372,6 +505,16 @@
             this.metroPanel16.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel16.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel13
+            // 
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel13.TabIndex = 2;
+            this.guna2HtmlLabel13.Text = "Room";
+            // 
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
@@ -411,6 +554,17 @@
             this.metroPanel18.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel18.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel19
+            // 
+            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel19.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
+            this.guna2HtmlLabel19.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel19.TabIndex = 7;
+            this.guna2HtmlLabel19.Text = "Room";
+            this.guna2HtmlLabel19.Click += new System.EventHandler(this.guna2HtmlLabel19_Click);
+            // 
             // metroPanel19
             // 
             this.metroPanel19.HorizontalScrollbarBarColor = true;
@@ -439,6 +593,17 @@
             this.metroPanel20.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel20.VerticalScrollbarSize = 10;
             // 
+            // guna2HtmlLabel20
+            // 
+            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel20.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
+            this.guna2HtmlLabel20.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel20.TabIndex = 2;
+            this.guna2HtmlLabel20.Text = "Room";
+            this.guna2HtmlLabel20.Click += new System.EventHandler(this.guna2HtmlLabel20_Click);
+            // 
             // metroPanel21
             // 
             this.metroPanel21.Controls.Add(this.guna2HtmlLabel18);
@@ -454,6 +619,16 @@
             this.metroPanel21.VerticalScrollbarBarColor = true;
             this.metroPanel21.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel21.VerticalScrollbarSize = 10;
+            // 
+            // guna2HtmlLabel18
+            // 
+            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel18.Location = new System.Drawing.Point(3, 3);
+            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
+            this.guna2HtmlLabel18.Size = new System.Drawing.Size(37, 18);
+            this.guna2HtmlLabel18.TabIndex = 7;
+            this.guna2HtmlLabel18.Text = "Room";
             // 
             // metroPanel22
             // 
@@ -496,138 +671,6 @@
             this.metroPanel24.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel24.VerticalScrollbarSize = 10;
             // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(12, 12);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(107, 35);
-            this.guna2HtmlLabel4.TabIndex = 0;
-            this.guna2HtmlLabel4.Text = "Overview";
-            // 
-            // guna2HtmlLabel5
-            // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(132, 12);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(105, 35);
-            this.guna2HtmlLabel5.TabIndex = 1;
-            this.guna2HtmlLabel5.Text = "Bookings";
-            // 
-            // guna2HtmlLabel6
-            // 
-            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel6.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(254, 12);
-            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(119, 35);
-            this.guna2HtmlLabel6.TabIndex = 2;
-            this.guna2HtmlLabel6.Text = "Check Out";
-            // 
-            // guna2HtmlLabel7
-            // 
-            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel7.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel7.Location = new System.Drawing.Point(391, 12);
-            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(181, 35);
-            this.guna2HtmlLabel7.TabIndex = 3;
-            this.guna2HtmlLabel7.Text = "Customer Detail";
-            this.guna2HtmlLabel7.Click += new System.EventHandler(this.guna2HtmlLabel7_Click);
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(593, 12);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(113, 35);
-            this.guna2HtmlLabel8.TabIndex = 4;
-            this.guna2HtmlLabel8.Text = "Employee";
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel9.TabIndex = 0;
-            this.guna2HtmlLabel9.Text = "Room";
-            // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel10.TabIndex = 7;
-            this.guna2HtmlLabel10.Text = "Room";
-            // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel11.TabIndex = 7;
-            this.guna2HtmlLabel11.Text = "Room";
-            // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel12.TabIndex = 2;
-            this.guna2HtmlLabel12.Text = "Room";
-            // 
-            // guna2HtmlLabel13
-            // 
-            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel13.TabIndex = 2;
-            this.guna2HtmlLabel13.Text = "Room";
-            // 
-            // guna2HtmlLabel14
-            // 
-            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
-            this.guna2HtmlLabel14.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel14.TabIndex = 7;
-            this.guna2HtmlLabel14.Text = "Room";
-            this.guna2HtmlLabel14.Click += new System.EventHandler(this.guna2HtmlLabel14_Click);
-            // 
-            // guna2HtmlLabel15
-            // 
-            this.guna2HtmlLabel15.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel15.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel15.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel15.Name = "guna2HtmlLabel15";
-            this.guna2HtmlLabel15.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel15.TabIndex = 7;
-            this.guna2HtmlLabel15.Text = "Room";
-            // 
-            // guna2HtmlLabel16
-            // 
-            this.guna2HtmlLabel16.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel16.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel16.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel16.Name = "guna2HtmlLabel16";
-            this.guna2HtmlLabel16.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel16.TabIndex = 2;
-            this.guna2HtmlLabel16.Text = "Room";
-            // 
             // guna2HtmlLabel17
             // 
             this.guna2HtmlLabel17.BackColor = System.Drawing.Color.Transparent;
@@ -639,44 +682,160 @@
             this.guna2HtmlLabel17.Text = "Room";
             this.guna2HtmlLabel17.Click += new System.EventHandler(this.guna2HtmlLabel17_Click);
             // 
-            // guna2HtmlLabel18
+            // metroButton1
             // 
-            this.guna2HtmlLabel18.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel18.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel18.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel18.Name = "guna2HtmlLabel18";
-            this.guna2HtmlLabel18.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel18.TabIndex = 7;
-            this.guna2HtmlLabel18.Text = "Room";
+            this.metroButton1.Location = new System.Drawing.Point(1393, 248);
+            this.metroButton1.Name = "metroButton1";
+            this.metroButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroButton1.TabIndex = 24;
+            this.metroButton1.Text = "metroButton1";
+            this.metroButton1.UseSelectable = true;
             // 
-            // guna2HtmlLabel19
+            // metroRadioButton1
             // 
-            this.guna2HtmlLabel19.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel19.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel19.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel19.Name = "guna2HtmlLabel19";
-            this.guna2HtmlLabel19.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel19.TabIndex = 7;
-            this.guna2HtmlLabel19.Text = "Room";
-            this.guna2HtmlLabel19.Click += new System.EventHandler(this.guna2HtmlLabel19_Click);
+            this.metroRadioButton1.AutoSize = true;
+            this.metroRadioButton1.Location = new System.Drawing.Point(1393, 396);
+            this.metroRadioButton1.Name = "metroRadioButton1";
+            this.metroRadioButton1.Size = new System.Drawing.Size(127, 15);
+            this.metroRadioButton1.TabIndex = 25;
+            this.metroRadioButton1.Text = "metroRadioButton1";
+            this.metroRadioButton1.UseSelectable = true;
             // 
-            // guna2HtmlLabel20
+            // guna2Button1
             // 
-            this.guna2HtmlLabel20.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel20.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel20.Location = new System.Drawing.Point(3, 3);
-            this.guna2HtmlLabel20.Name = "guna2HtmlLabel20";
-            this.guna2HtmlLabel20.Size = new System.Drawing.Size(37, 18);
-            this.guna2HtmlLabel20.TabIndex = 2;
-            this.guna2HtmlLabel20.Text = "Room";
-            this.guna2HtmlLabel20.Click += new System.EventHandler(this.guna2HtmlLabel20_Click);
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Location = new System.Drawing.Point(1371, 507);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
+            this.guna2Button1.TabIndex = 26;
+            this.guna2Button1.Text = "guna2Button1";
+            // 
+            // guna2GradientButton1
+            // 
+            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientButton1.Location = new System.Drawing.Point(1393, 669);
+            this.guna2GradientButton1.Name = "guna2GradientButton1";
+            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
+            this.guna2GradientButton1.TabIndex = 27;
+            this.guna2GradientButton1.Text = "guna2GradientButton1";
+            // 
+            // guna2GradientTileButton1
+            // 
+            this.guna2GradientTileButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientTileButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2GradientTileButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientTileButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2GradientTileButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2GradientTileButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GradientTileButton1.ForeColor = System.Drawing.Color.White;
+            this.guna2GradientTileButton1.Location = new System.Drawing.Point(1172, 258);
+            this.guna2GradientTileButton1.Name = "guna2GradientTileButton1";
+            this.guna2GradientTileButton1.Size = new System.Drawing.Size(180, 180);
+            this.guna2GradientTileButton1.TabIndex = 28;
+            this.guna2GradientTileButton1.Text = "guna2GradientTileButton1";
+            // 
+            // metroSetButton1
+            // 
+            this.metroSetButton1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(120)))), ((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton1.DisabledForeColor = System.Drawing.Color.Gray;
+            this.metroSetButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetButton1.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.metroSetButton1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(95)))), ((int)(((byte)(207)))), ((int)(((byte)(255)))));
+            this.metroSetButton1.HoverTextColor = System.Drawing.Color.White;
+            this.metroSetButton1.IsDerivedStyle = true;
+            this.metroSetButton1.Location = new System.Drawing.Point(1632, 384);
+            this.metroSetButton1.Name = "metroSetButton1";
+            this.metroSetButton1.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton1.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(177)))), ((int)(((byte)(225)))));
+            this.metroSetButton1.NormalTextColor = System.Drawing.Color.White;
+            this.metroSetButton1.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.metroSetButton1.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(147)))), ((int)(((byte)(195)))));
+            this.metroSetButton1.PressTextColor = System.Drawing.Color.White;
+            this.metroSetButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroSetButton1.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetButton1.StyleManager = null;
+            this.metroSetButton1.TabIndex = 29;
+            this.metroSetButton1.Text = "metroSetButton1";
+            this.metroSetButton1.ThemeAuthor = "Narwin";
+            this.metroSetButton1.ThemeName = "MetroLite";
+            // 
+            // metroSetDefaultButton1
+            // 
+            this.metroSetDefaultButton1.DisabledBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.metroSetDefaultButton1.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(155)))), ((int)(((byte)(155)))));
+            this.metroSetDefaultButton1.DisabledForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(136)))), ((int)(((byte)(136)))));
+            this.metroSetDefaultButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.metroSetDefaultButton1.HoverBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.metroSetDefaultButton1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
+            this.metroSetDefaultButton1.HoverTextColor = System.Drawing.Color.White;
+            this.metroSetDefaultButton1.IsDerivedStyle = true;
+            this.metroSetDefaultButton1.Location = new System.Drawing.Point(1646, 522);
+            this.metroSetDefaultButton1.Name = "metroSetDefaultButton1";
+            this.metroSetDefaultButton1.NormalBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.metroSetDefaultButton1.NormalColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.metroSetDefaultButton1.NormalTextColor = System.Drawing.Color.Black;
+            this.metroSetDefaultButton1.PressBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.metroSetDefaultButton1.PressColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.metroSetDefaultButton1.PressTextColor = System.Drawing.Color.White;
+            this.metroSetDefaultButton1.Size = new System.Drawing.Size(75, 23);
+            this.metroSetDefaultButton1.Style = MetroSet_UI.Enums.Style.Light;
+            this.metroSetDefaultButton1.StyleManager = null;
+            this.metroSetDefaultButton1.TabIndex = 30;
+            this.metroSetDefaultButton1.Text = "metroSetDefaultButton1";
+            this.metroSetDefaultButton1.ThemeAuthor = "Narwin";
+            this.metroSetDefaultButton1.ThemeName = "MetroLite";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(1736, 562);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 31;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(1289, 703);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 32;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // guna2Elipse1
+            // 
+            this.guna2Elipse1.TargetControl = this;
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
-            this.ClientSize = new System.Drawing.Size(1919, 961);
+            this.ClientSize = new System.Drawing.Size(1924, 1061);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.metroSetDefaultButton1);
+            this.Controls.Add(this.metroSetButton1);
+            this.Controls.Add(this.guna2GradientTileButton1);
+            this.Controls.Add(this.guna2GradientButton1);
+            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.metroRadioButton1);
+            this.Controls.Add(this.metroButton1);
             this.Controls.Add(this.guna2HtmlLabel3);
             this.Controls.Add(this.metroPanel17);
             this.Controls.Add(this.metroPanel18);
@@ -701,6 +860,7 @@
             this.Controls.Add(this.guna2Panel3);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Dashboard";
             this.Opacity = 0.7D;
             this.Text = "Hotel Management";
@@ -785,5 +945,15 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
+        private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroRadioButton metroRadioButton1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientTileButton guna2GradientTileButton1;
+        private MetroSet_UI.Controls.MetroSetButton metroSetButton1;
+        private MetroSet_UI.Controls.MetroSetDefaultButton metroSetDefaultButton1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
     }
 }

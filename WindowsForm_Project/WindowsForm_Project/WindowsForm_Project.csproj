@@ -72,6 +72,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="All_User_Control\UC_Bookings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="All_User_Control\UC_Bookings.Designer.cs">
+      <DependentUpon>UC_Bookings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bookings.Designer.cs">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +98,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="All_User_Control\UC_Bookings.resx">
+      <DependentUpon>UC_Bookings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bookings.resx">
+      <DependentUpon>Bookings.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
