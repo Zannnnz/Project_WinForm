@@ -26,5 +26,30 @@ namespace WindowsForm_Project
         {
 
         }
+
+        private void guna2HtmlLabel7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel20_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
