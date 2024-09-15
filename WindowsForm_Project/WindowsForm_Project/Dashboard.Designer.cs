@@ -30,57 +30,58 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnemployee = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btncheckout = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btncustomerdetail = new Guna.UI2.WinForms.Guna2GradientButton();
             this.Panelmoving = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.btndashboard = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.btnbookings = new Guna.UI2.WinForms.Guna2GradientButton();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Dashboard1 = new WindowsForm_Project.All_User_Control.UC_Dashboard();
             this.uC_Bookings1 = new WindowsForm_Project.All_User_Control.UC_Bookings();
+            this.uC_Dashboard1 = new WindowsForm_Project.All_User_Control.UC_Dashboard();
             this.guna2Panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton5);
+            this.guna2Panel1.Controls.Add(this.btnemployee);
             this.guna2Panel1.Controls.Add(this.guna2Button1);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton3);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton4);
+            this.guna2Panel1.Controls.Add(this.btncheckout);
+            this.guna2Panel1.Controls.Add(this.btncustomerdetail);
             this.guna2Panel1.Controls.Add(this.Panelmoving);
             this.guna2Panel1.Controls.Add(this.btndashboard);
-            this.guna2Panel1.Controls.Add(this.guna2GradientButton1);
+            this.guna2Panel1.Controls.Add(this.btnbookings);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(1920, 57);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // guna2GradientButton5
+            // btnemployee
             // 
-            this.guna2GradientButton5.BorderRadius = 10;
-            this.guna2GradientButton5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton5.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton5.FillColor = System.Drawing.Color.White;
-            this.guna2GradientButton5.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientButton5.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton5.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton5.Location = new System.Drawing.Point(895, 6);
-            this.guna2GradientButton5.Name = "guna2GradientButton5";
-            this.guna2GradientButton5.Size = new System.Drawing.Size(217, 45);
-            this.guna2GradientButton5.TabIndex = 28;
-            this.guna2GradientButton5.Text = "Employee";
+            this.btnemployee.BorderRadius = 10;
+            this.btnemployee.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnemployee.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnemployee.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnemployee.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnemployee.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnemployee.FillColor = System.Drawing.Color.White;
+            this.btnemployee.FillColor2 = System.Drawing.Color.White;
+            this.btnemployee.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnemployee.ForeColor = System.Drawing.Color.Black;
+            this.btnemployee.Location = new System.Drawing.Point(895, 6);
+            this.btnemployee.Name = "btnemployee";
+            this.btnemployee.Size = new System.Drawing.Size(217, 45);
+            this.btnemployee.TabIndex = 28;
+            this.btnemployee.Text = "Employee";
             // 
             // guna2Button1
             // 
+            this.guna2Button1.BorderRadius = 15;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -95,42 +96,42 @@
             this.guna2Button1.TabIndex = 25;
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
-            // guna2GradientButton3
+            // btncheckout
             // 
-            this.guna2GradientButton3.BorderRadius = 10;
-            this.guna2GradientButton3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton3.FillColor = System.Drawing.Color.Azure;
-            this.guna2GradientButton3.FillColor2 = System.Drawing.Color.White;
-            this.guna2GradientButton3.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton3.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton3.Location = new System.Drawing.Point(672, 6);
-            this.guna2GradientButton3.Name = "guna2GradientButton3";
-            this.guna2GradientButton3.Size = new System.Drawing.Size(217, 45);
-            this.guna2GradientButton3.TabIndex = 26;
-            this.guna2GradientButton3.Text = "Check Out";
+            this.btncheckout.BorderRadius = 10;
+            this.btncheckout.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btncheckout.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btncheckout.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btncheckout.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btncheckout.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btncheckout.FillColor = System.Drawing.Color.Azure;
+            this.btncheckout.FillColor2 = System.Drawing.Color.White;
+            this.btncheckout.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncheckout.ForeColor = System.Drawing.Color.Black;
+            this.btncheckout.Location = new System.Drawing.Point(672, 6);
+            this.btncheckout.Name = "btncheckout";
+            this.btncheckout.Size = new System.Drawing.Size(217, 45);
+            this.btncheckout.TabIndex = 26;
+            this.btncheckout.Text = "Check Out";
             // 
-            // guna2GradientButton4
+            // btncustomerdetail
             // 
-            this.guna2GradientButton4.BorderRadius = 10;
-            this.guna2GradientButton4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton4.FillColor = System.Drawing.Color.PowderBlue;
-            this.guna2GradientButton4.FillColor2 = System.Drawing.Color.LightCyan;
-            this.guna2GradientButton4.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton4.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton4.Location = new System.Drawing.Point(449, 6);
-            this.guna2GradientButton4.Name = "guna2GradientButton4";
-            this.guna2GradientButton4.Size = new System.Drawing.Size(217, 45);
-            this.guna2GradientButton4.TabIndex = 27;
-            this.guna2GradientButton4.Text = "Customer Detail";
-            this.guna2GradientButton4.Click += new System.EventHandler(this.guna2GradientButton4_Click);
+            this.btncustomerdetail.BorderRadius = 10;
+            this.btncustomerdetail.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btncustomerdetail.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btncustomerdetail.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btncustomerdetail.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btncustomerdetail.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btncustomerdetail.FillColor = System.Drawing.Color.PowderBlue;
+            this.btncustomerdetail.FillColor2 = System.Drawing.Color.LightCyan;
+            this.btncustomerdetail.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btncustomerdetail.ForeColor = System.Drawing.Color.Black;
+            this.btncustomerdetail.Location = new System.Drawing.Point(449, 6);
+            this.btncustomerdetail.Name = "btncustomerdetail";
+            this.btncustomerdetail.Size = new System.Drawing.Size(217, 45);
+            this.btncustomerdetail.TabIndex = 27;
+            this.btncustomerdetail.Text = "Customer Detail";
+            this.btncustomerdetail.Click += new System.EventHandler(this.guna2GradientButton4_Click);
             // 
             // Panelmoving
             // 
@@ -140,6 +141,7 @@
             this.Panelmoving.Name = "Panelmoving";
             this.Panelmoving.Size = new System.Drawing.Size(217, 5);
             this.Panelmoving.TabIndex = 24;
+            this.Panelmoving.Paint += new System.Windows.Forms.PaintEventHandler(this.Panelmoving_Paint);
             // 
             // btndashboard
             // 
@@ -160,24 +162,24 @@
             this.btndashboard.Text = "Dashboard";
             this.btndashboard.Click += new System.EventHandler(this.btndashboard_Click);
             // 
-            // guna2GradientButton1
+            // btnbookings
             // 
-            this.guna2GradientButton1.BorderRadius = 10;
-            this.guna2GradientButton1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2GradientButton1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2GradientButton1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2GradientButton1.FillColor = System.Drawing.Color.SkyBlue;
-            this.guna2GradientButton1.FillColor2 = System.Drawing.Color.LightBlue;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.Black;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(226, 6);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(217, 45);
-            this.guna2GradientButton1.TabIndex = 24;
-            this.guna2GradientButton1.Text = "Bookings";
-            this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
+            this.btnbookings.BorderRadius = 10;
+            this.btnbookings.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnbookings.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnbookings.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnbookings.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnbookings.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnbookings.FillColor = System.Drawing.Color.SkyBlue;
+            this.btnbookings.FillColor2 = System.Drawing.Color.LightBlue;
+            this.btnbookings.Font = new System.Drawing.Font("Corbel", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnbookings.ForeColor = System.Drawing.Color.Black;
+            this.btnbookings.Location = new System.Drawing.Point(226, 6);
+            this.btnbookings.Name = "btnbookings";
+            this.btnbookings.Size = new System.Drawing.Size(217, 45);
+            this.btnbookings.TabIndex = 24;
+            this.btnbookings.Text = "Bookings";
+            this.btnbookings.Click += new System.EventHandler(this.guna2GradientButton1_Click);
             // 
             // guna2Panel2
             // 
@@ -202,15 +204,6 @@
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
-            // uC_Dashboard1
-            // 
-            this.uC_Dashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uC_Dashboard1.Location = new System.Drawing.Point(239, 114);
-            this.uC_Dashboard1.Name = "uC_Dashboard1";
-            this.uC_Dashboard1.Size = new System.Drawing.Size(1681, 966);
-            this.uC_Dashboard1.TabIndex = 3;
-            this.uC_Dashboard1.Load += new System.EventHandler(this.uC_Dashboard1_Load);
-            // 
             // uC_Bookings1
             // 
             this.uC_Bookings1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -219,6 +212,15 @@
             this.uC_Bookings1.Size = new System.Drawing.Size(1681, 966);
             this.uC_Bookings1.TabIndex = 4;
             this.uC_Bookings1.Load += new System.EventHandler(this.uC_Bookings1_Load);
+            // 
+            // uC_Dashboard1
+            // 
+            this.uC_Dashboard1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uC_Dashboard1.Location = new System.Drawing.Point(239, 114);
+            this.uC_Dashboard1.Name = "uC_Dashboard1";
+            this.uC_Dashboard1.Size = new System.Drawing.Size(1681, 966);
+            this.uC_Dashboard1.TabIndex = 3;
+            this.uC_Dashboard1.Load += new System.EventHandler(this.uC_Dashboard1_Load);
             // 
             // Dashboard
             // 
@@ -248,11 +250,11 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel Panelmoving;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton3;
+        private Guna.UI2.WinForms.Guna2GradientButton btnemployee;
+        private Guna.UI2.WinForms.Guna2GradientButton btncustomerdetail;
+        private Guna.UI2.WinForms.Guna2GradientButton btncheckout;
         private Guna.UI2.WinForms.Guna2GradientButton btndashboard;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2GradientButton btnbookings;
         private All_User_Control.UC_Dashboard uC_Dashboard1;
         private All_User_Control.UC_Bookings uC_Bookings1;
     }

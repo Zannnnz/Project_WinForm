@@ -79,14 +79,54 @@ namespace WindowsForm_Project
 
         private void btndashboard_Click(object sender, EventArgs e)
         {
-            Panelmoving.Left = btndashboard.Left - 220;
+            MovePanel(btndashboard);
             uC_Dashboard1.Visible = true;
             uC_Dashboard1.BringToFront();
+            // Hide other user controls
+            uC_Bookings1.Visible = false;
+            // ... hide other user controls
+        }
+
+        private void btnBookings_Click(object sender, EventArgs e)
+        {
+            MovePanel(btnbookings);
+            uC_Bookings1.Visible = true;
+            uC_Bookings1.BringToFront();
+            // Hide other user controls
+            uC_Dashboard1.Visible = false;
+            // ... hide other user controls
+        }
+
+        private void btnCustomerDetail_Click(object sender, EventArgs e)
+        {
+            MovePanel(btncustomerdetail);
+            // Show Customer Detail user control
+            // Hide other user controls
+        }
+
+        private void btnCheckOut_Click(object sender, EventArgs e)
+        {
+            MovePanel(btncheckout);
+            // Show Check Out user control
+            // Hide other user controls
+        }
+
+        private void btnEmployee_Click(object sender, EventArgs e)
+        {
+            MovePanel(btnemployee);
+            // Show Employee user control
+            // Hide other user controls
+        }
+
+        private void MovePanel(Guna.UI2.WinForms.Guna2GradientButton clickedButton)
+        {
+            Panelmoving.Left = clickedButton.Left;
+            Panelmoving.Width = clickedButton.Width;
         }
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
-            Panelmoving.Left = btndashboard.Left + 200;
+            Panelmoving.Left = btndashboard.Left + 223;
             uC_Dashboard1.Visible = false;
             uC_Bookings1.Visible = true;
             uC_Bookings1.BringToFront();
@@ -104,6 +144,11 @@ namespace WindowsForm_Project
             uC_Dashboard1.Visible = false;
             btndashboard.PerformClick();
             Panelmoving.Left = btndashboard.Left;
+        }
+
+        private void Panelmoving_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

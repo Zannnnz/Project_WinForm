@@ -36,5 +36,43 @@ namespace WindowsForm_Project.Models
             }
             return response;
         }
+        public Response Getroom(SqlConnection conn)
+        {
+            Response response = new Response();
+            List<Room> list = new List<Room>();
+            try
+            {
+                string query= @"SELECT roomnumber, roomtype, numbed, price FROM Room";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    conn.Open();
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Room room = new Room
+                            {
+                                roomnumber = int.Parse(reader["roomnumber"].ToString()),
+                                roomtype = reader["roomtype"].ToString(),
+                                numbed = int.Parse(reader["numbed"].ToString()),
+                                price = int.Parse(reader["price"].ToString()),
+                            };
+                            list.Add(room);
+                        }
+                    }
+                }
+                response.list = list;
+            }
+            catch(Exception ex)
+            {
+                response.statusmessage = ex.Message;
+            }
+            finally
+            {
+                if(conn.State == ConnectionState.Open) 
+                    conn.Close();
+            }
+            return response;
+        }
     }
 }

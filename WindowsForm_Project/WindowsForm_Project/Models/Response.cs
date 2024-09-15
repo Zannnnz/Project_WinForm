@@ -8,6 +8,7 @@ namespace WindowsForm_Project.Models
 {
     public class Response
     {
-        public string statusmessage {  get; set; }
+        public string statusmessage { get; set; }
+        public List<Room> list { get; set; }
     }
 }
