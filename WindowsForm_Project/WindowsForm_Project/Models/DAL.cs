@@ -21,8 +21,8 @@ namespace WindowsForm_Project.Models
                 cmd.Parameters.AddWithValue("@roomnumber", room.roomnumber);
                 cmd.Parameters.AddWithValue("@roomtype", room.roomtype);
                 cmd.Parameters.AddWithValue("@numbed", room.numbed);
-                cmd.Parameters.AddWithValue("@roomtype", room.date_ci);
-                cmd.Parameters.AddWithValue("@numbed", room.date_co);
+                cmd.Parameters.AddWithValue("@date_ci", room.date_ci);
+                cmd.Parameters.AddWithValue("@date_co", room.date_co);
                 cmd.Parameters.AddWithValue("@price", room.price);
                 cmd.Parameters.Add("@ErrorMessage", SqlDbType.Char, 200);
                 cmd.Parameters["@ErrorMessage"].Direction = ParameterDirection.Output;
