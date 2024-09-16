@@ -150,5 +150,165 @@ namespace WindowsForm_Project
         {
 
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox4_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel4_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel5_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Clean_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox11_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox10_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox9_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox6_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox7_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CheckBox8_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel6_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel14_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel6_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
