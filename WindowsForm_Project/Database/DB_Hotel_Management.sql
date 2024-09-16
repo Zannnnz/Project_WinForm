@@ -29,6 +29,8 @@ CREATE TABLE Other_detail (
 GO
 CREATE TABLE Customer (
 	cccd_cus NVARCHAR(200) PRIMARY KEY,
+	first_name NVARCHAR(200) NOT NULL,
+	last_name NVARCHAR(200) NOT NULL,
 	sdt NVARCHAR(200) NOT NULL,
 	email NVARCHAR(200) NOT NULL,
 	gioitinh NVARCHAR(200) CHECK (gioitinh IN ('Nam', 'Nu')),
@@ -37,6 +39,8 @@ CREATE TABLE Customer (
 GO
 CREATE TABLE Employee (
 	cccd_em NVARCHAR(200) PRIMARY KEY,
+	first_name NVARCHAR(200) NOT NULL,
+	last_name NVARCHAR(200) NOT NULL,
 	sdt NVARCHAR(200) NOT NULL,
 	email NVARCHAR(200) NOT NULL,
 	gioitinh NVARCHAR(200) CHECK (gioitinh IN ('Nam', 'Nu')),
@@ -77,7 +81,7 @@ BEGIN
 	END
 	ELSE
 	BEGIN
-		SET @ErrorMessage = 'Phong da ton tai'
+		SET @ErrorMessage = 'Them phong khong thanh cong'
 	END
 END
 GO
@@ -112,6 +116,43 @@ BEGIN
 		WHERE maphong = @maphong;
 
 		SET @ErrorMessage = 'Update successful'
+	END TRY
+	BEGIN CATCH
+		SET @ErrorMessage = ERROR_MESSAGE();
+	END CATCH
+END
+GO
+CREATE OR ALTER PROC sp_addcustomer @cccd_cus NVARCHAR(200), @first_name NVARCHAR(200), @last_name NVARCHAR(200), @sdt NVARCHAR(200), @email NVARCHAR(200), @gioitinh NVARCHAR(200), @ngaysinh DATETIME, @ErrorMessage NVARCHAR(200) OUTPUT
+AS
+BEGIN
+	IF NOT EXISTS (	SELECT 1 FROM Customer
+					WHERE cccd_cus = @cccd_cus)
+	BEGIN
+		INSERT INTO Customer(cccd_cus, first_name, last_name, sdt, email, gioitinh, ngaysinh) VALUES (@cccd_cus, @first_name, @last_name, @sdt, @email, @gioitinh, @ngaysinh)
+		SET @ErrorMessage = 'Them customer thanh cong'
+	END
+	ELSE
+	BEGIN
+		SET @ErrorMessage = 'Them customer khong thanh cong'
+	END
+END
+GO
+CREATE OR ALTER PROC sp_updatecustomer @cccd_cus NVARCHAR(200) = NULL, @first_name NVARCHAR(200) = NULL, @last_name NVARCHAR(200) = NULL, @sdt NVARCHAR(200) = NULL, @email NVARCHAR(200) = NULL, @gioitinh NVARCHAR(200) = NULL, @ngaysinh DATETIME = NULL, @ErrorMessage NVARCHAR(200) OUTPUT
+AS
+BEGIN
+	BEGIN TRY
+		UPDATE Customer
+		SET
+			cccd_cus = COALESCE(@cccd_cus, cccd_cus),
+			first_name = COALESCE(@first_name, first_name),
+			last_name = COALESCE(@last_name, last_name), 
+			sdt = COALESCE(@sdt, sdt),
+			email = COALESCE(@email, email), 
+			gioitinh = COALESCE(@gioitinh, gioitinh),
+			ngaysinh = COALESCE(@ngaysinh, ngaysinh)
+		WHERE cccd_cus = @cccd_cus;
+
+		SET @ErrorMessage = 'Update Successful'
 	END TRY
 	BEGIN CATCH
 		SET @ErrorMessage = ERROR_MESSAGE();

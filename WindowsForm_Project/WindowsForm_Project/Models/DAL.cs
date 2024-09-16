@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -76,6 +77,70 @@ namespace WindowsForm_Project.Models
             {
                 if(conn.State == ConnectionState.Open) 
                     conn.Close();
+            }
+            return response;
+        }
+        ///DELETE Room
+        public Response Addcustomer(Customer customer, SqlConnection conn)
+        {
+            Response response = new Response();
+            try
+            {
+                SqlCommand cmd = new SqlCommand("sp_addcustomer", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@cccd_cus", customer.cccd_cus);
+                cmd.Parameters.AddWithValue("@first_name", customer.first_name);
+                cmd.Parameters.AddWithValue("@last_name", customer.last_name);
+                cmd.Parameters.AddWithValue("@sdt", customer.sdt);
+                cmd.Parameters.AddWithValue("@email", customer.email);
+                cmd.Parameters.AddWithValue("@gioitinh", customer.gioitinh);
+                cmd.Parameters.AddWithValue("@ngaysinh", customer.ngaysinh);
+                cmd.Parameters.Add("@ErrorMessage", SqlDbType.Char, 200);
+                cmd.Parameters["@ErrorMessage"].Direction = ParameterDirection.Output;
+                conn.Open();
+                int i = cmd.ExecuteNonQuery();
+                conn.Close();
+                string mess = (string)cmd.Parameters["@ErrorMessage"].Value;
+                response.statusmessage = mess;
+            }
+            catch (Exception ex)
+            {
+                response.statusmessage = ex.Message;
+            }
+            return response;
+        }
+        public Response Getcustomer(SqlConnection conn)
+        {
+            Response response = new Response();
+            List<Customer> list = new List<Customer>();
+            try
+            {
+                string query = @"SELECT * FROM Customer";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            Customer room = new Customer
+                            {
+                                cccd_cus = reader["cccd_cus"].ToString(),
+                                first_name = reader["first_name"].ToString(),
+                                last_name = reader["last_name"].ToString(),
+                                sdt = reader["sdt"].ToString(),
+                                email = reader["email"].ToString(),
+                                gioitinh = reader["gioitinh"].ToString(),
+                                ngaysinh = DateTime.Parse(reader["ngaysinh"].ToString()),
+
+                            };
+                            list.Add(room);
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                response.statusmessage = ex.Message;
             }
             return response;
         }
