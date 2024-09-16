@@ -66,7 +66,7 @@ CREATE TABLE Serve (
 	FOREIGN KEY (cccd_em) REFERENCES Employee(cccd_em) ON UPDATE CASCADE ON DELETE CASCADE,
 )
 GO
-CREATE OR ALTER PROC sp_addroom @maphong INT, @roomnumber INT, @roomtype NVARCHAR(200), @numbed INT, @date_ci NVARCHAR(200), @date_co NVARCHAR(200), @price INT, @ErrorMessage NVARCHAR(200) OUTPUT
+CREATE OR ALTER PROC sp_addroom @maphong INT, @roomnumber INT, @roomtype NVARCHAR(200), @numbed INT, @date_ci DATETIME, @date_co DATETIME, @price INT, @ErrorMessage NVARCHAR(200) OUTPUT
 AS
 BEGIN
 	IF NOT EXISTS (	SELECT 1 FROM Room
@@ -96,7 +96,7 @@ BEGIN
 	END
 END
 GO
-CREATE OR ALTER PROC sp_updateroom @maphong INT = NULL, @roomnumber INT = NULL, @roomtype NVARCHAR(200) = NULL, @numbed INT = NULL, @date_ci NVARCHAR(200) = NULL, @date_co NVARCHAR(200) = NULL, @price INT = NULL, @ErrorMessage NVARCHAR(200) OUTPUT
+CREATE OR ALTER PROC sp_updateroom @maphong INT = NULL, @roomnumber INT = NULL, @roomtype NVARCHAR(200) = NULL, @numbed INT = NULL, @date_ci DATETIME = NULL, @date_co DATETIME = NULL, @price INT = NULL, @ErrorMessage NVARCHAR(200) OUTPUT
 AS
 BEGIN 
 	BEGIN TRY
