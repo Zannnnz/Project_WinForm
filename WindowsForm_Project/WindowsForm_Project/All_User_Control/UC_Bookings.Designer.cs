@@ -45,6 +45,11 @@
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.txtsophong = new Guna.UI2.WinForms.Guna2TextBox();
             this.DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.inputdateci = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.inputdateco = new Guna.UI2.WinForms.Guna2DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +65,7 @@
             // guna2HtmlLabel2
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(977, 155);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(713, 121);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(49, 15);
             this.guna2HtmlLabel2.TabIndex = 2;
@@ -78,7 +83,7 @@
             this.txtmaphong.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtmaphong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtmaphong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtmaphong.Location = new System.Drawing.Point(956, 73);
+            this.txtmaphong.Location = new System.Drawing.Point(713, 72);
             this.txtmaphong.Name = "txtmaphong";
             this.txtmaphong.PasswordChar = '\0';
             this.txtmaphong.PlaceholderText = "";
@@ -89,7 +94,7 @@
             // guna2HtmlLabel3
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(977, 295);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(715, 184);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
             this.guna2HtmlLabel3.Size = new System.Drawing.Size(56, 15);
             this.guna2HtmlLabel3.TabIndex = 4;
@@ -111,7 +116,7 @@
             "SUP",
             "DLX",
             "SUT"});
-            this.txtloaiphong.Location = new System.Drawing.Point(977, 342);
+            this.txtloaiphong.Location = new System.Drawing.Point(713, 205);
             this.txtloaiphong.Name = "txtloaiphong";
             this.txtloaiphong.Size = new System.Drawing.Size(140, 36);
             this.txtloaiphong.TabIndex = 5;
@@ -130,19 +135,21 @@
             "1",
             "2",
             "3"});
-            this.txtloaigiuong.Location = new System.Drawing.Point(977, 466);
+            this.txtloaigiuong.Location = new System.Drawing.Point(715, 268);
             this.txtloaigiuong.Name = "txtloaigiuong";
             this.txtloaigiuong.Size = new System.Drawing.Size(140, 36);
             this.txtloaigiuong.TabIndex = 7;
+            this.txtloaigiuong.SelectedIndexChanged += new System.EventHandler(this.txtloaigiuong_SelectedIndexChanged);
             // 
             // guna2HtmlLabel4
             // 
             this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(977, 418);
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(715, 247);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
             this.guna2HtmlLabel4.Size = new System.Drawing.Size(58, 15);
             this.guna2HtmlLabel4.TabIndex = 6;
             this.guna2HtmlLabel4.Text = "Loai giuong";
+            this.guna2HtmlLabel4.Click += new System.EventHandler(this.guna2HtmlLabel4_Click);
             // 
             // txtgia
             // 
@@ -155,7 +162,7 @@
             this.txtgia.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtgia.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtgia.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtgia.Location = new System.Drawing.Point(977, 603);
+            this.txtgia.Location = new System.Drawing.Point(715, 466);
             this.txtgia.Name = "txtgia";
             this.txtgia.PasswordChar = '\0';
             this.txtgia.PlaceholderText = "";
@@ -166,7 +173,7 @@
             // guna2HtmlLabel5
             // 
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(977, 553);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(713, 445);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(39, 15);
             this.guna2HtmlLabel5.TabIndex = 8;
@@ -181,7 +188,7 @@
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(977, 690);
+            this.guna2Button1.Location = new System.Drawing.Point(715, 537);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 10;
@@ -203,13 +210,14 @@
             this.txtsophong.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtsophong.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtsophong.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtsophong.Location = new System.Drawing.Point(989, 227);
+            this.txtsophong.Location = new System.Drawing.Point(713, 142);
             this.txtsophong.Name = "txtsophong";
             this.txtsophong.PasswordChar = '\0';
             this.txtsophong.PlaceholderText = "";
             this.txtsophong.SelectedText = "";
             this.txtsophong.Size = new System.Drawing.Size(200, 36);
             this.txtsophong.TabIndex = 11;
+            this.txtsophong.TextChanged += new System.EventHandler(this.txtsophong_TextChanged);
             // 
             // DataGridView1
             // 
@@ -234,10 +242,10 @@
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataGridView1.Location = new System.Drawing.Point(239, 188);
+            this.DataGridView1.Location = new System.Drawing.Point(72, 96);
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.RowHeadersVisible = false;
-            this.DataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.DataGridView1.Size = new System.Drawing.Size(472, 532);
             this.DataGridView1.TabIndex = 12;
             this.DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -261,10 +269,68 @@
             this.DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
+            // guna2HtmlLabel6
+            // 
+            this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(713, 51);
+            this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(47, 15);
+            this.guna2HtmlLabel6.TabIndex = 13;
+            this.guna2HtmlLabel6.Text = "maphong";
+            // 
+            // guna2HtmlLabel7
+            // 
+            this.guna2HtmlLabel7.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel7.Location = new System.Drawing.Point(713, 312);
+            this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(68, 15);
+            this.guna2HtmlLabel7.TabIndex = 17;
+            this.guna2HtmlLabel7.Text = "date check in";
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(713, 382);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(75, 15);
+            this.guna2HtmlLabel8.TabIndex = 14;
+            this.guna2HtmlLabel8.Text = "date check out";
+            // 
+            // inputdateci
+            // 
+            this.inputdateci.Checked = true;
+            this.inputdateci.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.inputdateci.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.inputdateci.Location = new System.Drawing.Point(715, 333);
+            this.inputdateci.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.inputdateci.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.inputdateci.Name = "inputdateci";
+            this.inputdateci.Size = new System.Drawing.Size(200, 36);
+            this.inputdateci.TabIndex = 18;
+            this.inputdateci.Value = new System.DateTime(2024, 9, 16, 14, 22, 22, 423);
+            // 
+            // inputdateco
+            // 
+            this.inputdateco.Checked = true;
+            this.inputdateco.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.inputdateco.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.inputdateco.Location = new System.Drawing.Point(715, 403);
+            this.inputdateco.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.inputdateco.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.inputdateco.Name = "inputdateco";
+            this.inputdateco.Size = new System.Drawing.Size(200, 36);
+            this.inputdateco.TabIndex = 19;
+            this.inputdateco.Value = new System.DateTime(2024, 9, 16, 14, 22, 26, 567);
+            // 
             // UC_Bookings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.inputdateco);
+            this.Controls.Add(this.inputdateci);
+            this.Controls.Add(this.guna2HtmlLabel7);
+            this.Controls.Add(this.guna2HtmlLabel8);
+            this.Controls.Add(this.guna2HtmlLabel6);
             this.Controls.Add(this.DataGridView1);
             this.Controls.Add(this.txtsophong);
             this.Controls.Add(this.guna2Button1);
@@ -303,5 +369,10 @@
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private Guna.UI2.WinForms.Guna2TextBox txtsophong;
         private Guna.UI2.WinForms.Guna2DataGridView DataGridView1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
+        private Guna.UI2.WinForms.Guna2DateTimePicker inputdateco;
+        private Guna.UI2.WinForms.Guna2DateTimePicker inputdateci;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
     }
 }

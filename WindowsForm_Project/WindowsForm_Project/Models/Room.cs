@@ -12,6 +12,8 @@ namespace WindowsForm_Project.Models
         public int roomnumber { get; set; }
         public string roomtype { get; set; }
         public int numbed { get; set; }
+        public DateTime date_ci { get; set; }
+        public DateTime date_co { get; set; }
         public int price { get; set; }
     }
 }

@@ -21,6 +21,8 @@ namespace WindowsForm_Project.Models
                 cmd.Parameters.AddWithValue("@roomnumber", room.roomnumber);
                 cmd.Parameters.AddWithValue("@roomtype", room.roomtype);
                 cmd.Parameters.AddWithValue("@numbed", room.numbed);
+                cmd.Parameters.AddWithValue("@roomtype", room.date_ci);
+                cmd.Parameters.AddWithValue("@numbed", room.date_co);
                 cmd.Parameters.AddWithValue("@price", room.price);
                 cmd.Parameters.Add("@ErrorMessage", SqlDbType.Char, 200);
                 cmd.Parameters["@ErrorMessage"].Direction = ParameterDirection.Output;
@@ -42,7 +44,7 @@ namespace WindowsForm_Project.Models
             List<Room> list = new List<Room>();
             try
             {
-                string query= @"SELECT roomnumber, roomtype, numbed, price FROM Room";
+                string query= @"SELECT * FROM Room";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     conn.Open();
@@ -52,9 +54,12 @@ namespace WindowsForm_Project.Models
                         {
                             Room room = new Room
                             {
+                                maphong = int.Parse(reader["maphong"].ToString()),
                                 roomnumber = int.Parse(reader["roomnumber"].ToString()),
                                 roomtype = reader["roomtype"].ToString(),
                                 numbed = int.Parse(reader["numbed"].ToString()),
+                                date_ci = DateTime.Parse(reader["date_ci"].ToString()),
+                                date_co = DateTime.Parse(reader["date_co"].ToString()),
                                 price = int.Parse(reader["price"].ToString()),
                             };
                             list.Add(room);

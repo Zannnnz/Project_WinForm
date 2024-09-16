@@ -36,7 +36,7 @@ namespace WindowsForm_Project.All_User_Control
 
         private bool ValidateInput()
         {
-            if(txtmaphong.Text == "" || txtsophong.Text == "" || txtloaiphong.SelectedItem == null || txtloaigiuong.SelectedItem == null || txtgia.Text == "")
+            if(txtmaphong.Text == "" || txtsophong.Text == "" || txtloaiphong.SelectedItem == null || txtloaigiuong.SelectedItem == null || inputdateci.Value == null || inputdateco.Value == null || txtgia.Text == "")
             {
                 MessageBox.Show("Please fill in all the fields.");
                 return false;
@@ -54,6 +54,8 @@ namespace WindowsForm_Project.All_User_Control
                     roomnumber = int.Parse(txtsophong.Text),
                     roomtype = txtloaiphong.SelectedItem.ToString(),
                     numbed = int.Parse(txtloaigiuong.SelectedItem.ToString()),
+                    date_ci = inputdateci.Value,
+                    date_co = inputdateco.Value,
                     price = int.Parse(txtgia.Text)
                 };
 
@@ -83,6 +85,8 @@ namespace WindowsForm_Project.All_User_Control
             txtsophong.Clear();
             txtloaiphong.SelectedIndex = -1;
             txtloaigiuong.SelectedIndex = -1;
+            inputdateci.Value = DateTime.Now;
+            inputdateco.Value = DateTime.Now;
             txtgia.Clear();
         }
 
@@ -125,6 +129,21 @@ namespace WindowsForm_Project.All_User_Control
         }
 
         private void UC_Bookings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtsophong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtloaigiuong_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
