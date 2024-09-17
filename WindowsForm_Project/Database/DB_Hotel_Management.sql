@@ -158,3 +158,6 @@ BEGIN
 		SET @ErrorMessage = ERROR_MESSAGE();
 	END CATCH
 END
+	
+SELECT * FROM Customer
+SELECT * FROM Room

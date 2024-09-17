@@ -118,11 +118,12 @@ namespace WindowsForm_Project.Models
                 string query = @"SELECT * FROM Customer";
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
+                    conn.Open();
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            Customer room = new Customer
+                            Customer customer = new Customer
                             {
                                 cccd_cus = reader["cccd_cus"].ToString(),
                                 first_name = reader["first_name"].ToString(),
@@ -131,16 +132,21 @@ namespace WindowsForm_Project.Models
                                 email = reader["email"].ToString(),
                                 gioitinh = reader["gioitinh"].ToString(),
                                 ngaysinh = DateTime.Parse(reader["ngaysinh"].ToString()),
-
                             };
-                            list.Add(room);
+                            list.Add(customer);
                         }
                     }
                 }
+                response.list1 = list;
             }
             catch (Exception ex)
             {
                 response.statusmessage = ex.Message;
+            }
+            finally
+            {
+                if (conn.State == ConnectionState.Open)
+                    conn.Close();
             }
             return response;
         }
