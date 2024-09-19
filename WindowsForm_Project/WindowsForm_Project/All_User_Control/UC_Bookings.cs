@@ -80,11 +80,6 @@ namespace WindowsForm_Project.All_User_Control
             clearAll();
             clearAll_Cus();
         }
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void UC_Bookings_Enter(object sender, EventArgs e)
         {
             try
