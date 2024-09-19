@@ -18,22 +18,7 @@ namespace WindowsForm_Project.All_User_Control
         {
             InitializeComponent();
         }
-
-        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel5_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        /// btn addroom
         private bool ValidateInput()
         {
             if(txtmaphong.Text == "" || txtsophong.Text == "" || txtloaiphong.SelectedItem == null || txtloaigiuong.SelectedItem == null || inputdateci.Value == null || inputdateco.Value == null || txtgia.Text == "")
@@ -93,6 +78,7 @@ namespace WindowsForm_Project.All_User_Control
         private void UC_Bookings_Leave(object sender, EventArgs e)
         {
             clearAll();
+            clearAll_Cus();
         }
 
         private void UC_Bookings_Enter(object sender, EventArgs e)
@@ -100,11 +86,13 @@ namespace WindowsForm_Project.All_User_Control
             try
             {
                 LoadRoomData();
+                LoadCustomerData();
                 DataGridView1.Refresh();
+                DataGridView2.Refresh();
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error loading room data: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error loading data: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -127,27 +115,8 @@ namespace WindowsForm_Project.All_User_Control
                 }
             }
         }
-
-        private void UC_Bookings_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtsophong_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtloaigiuong_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        /// -------------------------------------------------------------------
+        /// btn addcustomer
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             if (ValidateInput_Cus())
@@ -176,6 +145,7 @@ namespace WindowsForm_Project.All_User_Control
                 }
             }
         }
+
         private bool ValidateInput_Cus()
         {
             if (txtcccd_cus.Text == "" || txtfirstname_cus.Text == "" || txtlastname_cus.Text == "" || txtsdt_cus.Text == "" || txtemail_cus.Text == "" || txtgioitinh_cus.SelectedItem == null || txtngaysinh_cus.Value == null)
@@ -221,6 +191,40 @@ namespace WindowsForm_Project.All_User_Control
             txtemail_cus.Clear();
             txtgioitinh_cus.SelectedIndex = -1;
             txtngaysinh_cus.Value = DateTime.Now;
+        }
+        /// -------------------------------------------------------------------
+        private void guna2HtmlLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void UC_Bookings_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtsophong_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtloaigiuong_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void txtcccd_cus_TextChanged(object sender, EventArgs e)
