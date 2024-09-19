@@ -146,7 +146,7 @@ namespace WindowsForm_Project.All_User_Control
             }
         }
         /// <summary>
-        /// //////
+        /// //////lllllllllllllllllllllllllll
         /// </summary>
         /// <returns></returns>
         private bool ValidateInput_Cus()
