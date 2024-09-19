@@ -150,7 +150,7 @@ namespace WindowsForm_Project.All_User_Control
         /// <returns></returns>
         /// 
 
-        jjjjjj
+
 
         private bool ValidateInput_Cus()
         {
