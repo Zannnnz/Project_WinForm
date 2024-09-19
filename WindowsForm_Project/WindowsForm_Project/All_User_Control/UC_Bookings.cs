@@ -148,6 +148,10 @@ namespace WindowsForm_Project.All_User_Control
         /// //////lllllllllllllllllllllllllll
         /// </summary>
         /// <returns></returns>
+        /// 
+
+        jjjjjj
+
         private bool ValidateInput_Cus()
         {
             if (txtcccd_cus.Text == "" || txtfirstname_cus.Text == "" || txtlastname_cus.Text == "" || txtsdt_cus.Text == "" || txtemail_cus.Text == "" || txtgioitinh_cus.SelectedItem == null || txtngaysinh_cus.Value == null)
