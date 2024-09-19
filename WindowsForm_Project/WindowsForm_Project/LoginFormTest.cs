@@ -19,9 +19,24 @@ namespace WindowsForm_Project
 
         private void LoginFormTest_Load(object sender, EventArgs e)
         {
-
+           
         }
-
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            if (textusername.Text == "BiuBiu" && textpassword.Text == "2309")
+            {
+                errormess.Visible = false;
+                Dashboard ds = new Dashboard();
+                this.Hide();
+                ds.Show();
+            }
+            else
+            {
+                errormess.Visible = true;
+                textusername.Clear();
+                textpassword.Clear();
+            }
+        }
         private void guna2PictureBox2_Click(object sender, EventArgs e)
         {
 
@@ -43,6 +58,11 @@ namespace WindowsForm_Project
         }
 
         private void guna2Panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
 
         }
